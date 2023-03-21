@@ -1,0 +1,51 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  Source.cpp
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(33,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(34,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(35,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(36,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(40,15): error C2182: 'drawRectangle': illegal use of type 'void'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(40,15): error C2365: 'drawRectangle': redefinition; previous definition was 'function'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(27): message : see declaration of 'drawRectangle'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(40,30): error C2065: 'Objektas': undeclared identifier
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(40,40): error C2065: 'o': undeclared identifier
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(40,44): error C2143: syntax error: missing ';' before '{'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(40,44): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(54,39): error C2065: 'Player': undeclared identifier
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(54,47): error C2059: syntax error: '>'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(54,49): error C2143: syntax error: missing ')' before 'const'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(54,56): error C3646: 'p': unknown override specifier
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(54,57): error C2270: 'renderGame': modifiers not allowed on nonmember functions
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(54,71): error C2065: 'Objektas': undeclared identifier
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(54,81): error C2059: syntax error: '>'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(54): error C2062: type 'unknown-type' unexpected
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(55,43): error C2065: 'Position': undeclared identifier
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(55,32): error C2923: 'std::map': 'Position' is not a valid template type argument for parameter '_Ty'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(55): message : see declaration of 'Position'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(55,32): error C2976: 'std::map': too few template arguments
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\map(75): message : see declaration of 'std::map'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(55,72): error C2059: syntax error: ')'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(55,74): error C2143: syntax error: missing ';' before '{'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(55,74): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(64,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(65,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(121,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(159,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(160,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(161,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(168,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(200,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(201,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(214,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(215,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(229,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(230,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(243,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(244,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(256,1): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\testObjektas.cpp(258,1): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\Source.cpp(107,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\Source.cpp(122,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\Source.cpp(123,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\Source.cpp(136,71): error C2660: 'renderGame': function does not take 3 arguments
+C:\Users\julis\Documents\mokykla\programavimas\kursinisVisualStudio\zaidimas\renderer.cpp(54,15): message : see declaration of 'renderGame'

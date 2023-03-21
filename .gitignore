@@ -1,0 +1,5 @@
+*.exe
+debugOut.txt
+deathCount.txt
+*.vcxproj.user
+Debug

@@ -1,0 +1,16 @@
+P 0.2 0.2
+zemes: posX, posY, plotis, aukstis
+spygliai: posX, posY
+player gali pasokti 0.2
+G 0.0 0.0 1.0 0.06 zeme
+G 0.3 0.0 0.06 0.15 aukstas stulpass
+E 0.4 0.06 enemy 
+E 0.5 0.06 enemy 
+E 0.6 0.06 enemy 
+E 0.7 0.06 enemy 
+G 0.39 0.22 0.06 0.06 kabantis kvadratas prie stulpo
+G 0.6 0.27 0.06 0.06 kabantis kvadratas prie kabancio
+E 0.6 0.44
+G 0.40 0.37 0.06 0.06 kabantis kvadratas prie stulpo auksciau
+G 0.70 0.44 0.3 0.03 kabanti platforma
+E 0.75 0.47 enemy ant platformos
